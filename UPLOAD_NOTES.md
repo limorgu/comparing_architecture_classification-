@@ -15,3 +15,6 @@ Excluded:
 - unrelated book-pipeline files
 
 To rerun locally after cloning, place the original dataset file in `benchmark_mental_health/` or update the dataset path in the run command.
+
+Original source dataset:
+[Mental Health Text Classification Dataset (Kaggle)](https://www.kaggle.com/datasets/priyangshumukherjee/mental-health-text-classification-dataset?resource=download)
