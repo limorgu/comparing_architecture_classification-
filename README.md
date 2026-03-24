@@ -17,3 +17,15 @@ Architectures benchmarked:
 
 Final headline result:
 - `ensemble_judge` performed best on the balanced 100-row evaluation slice.
+
+## Dataset Source
+
+Original dataset:
+[Mental Health Text Classification Dataset (Kaggle)](https://www.kaggle.com/datasets/priyangshumukherjee/mental-health-text-classification-dataset?resource=download)
+
+The full raw dataset is not included in this repository.
+This repository includes only:
+- benchmark code
+- a balanced 100-row evaluation slice derived from the dataset
+- final benchmark outputs
+
