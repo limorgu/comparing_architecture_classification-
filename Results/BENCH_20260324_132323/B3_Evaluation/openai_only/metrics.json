@@ -1,0 +1,105 @@
+{
+  "architecture": "openai_only",
+  "accuracy": 0.69,
+  "macro_f1": 0.5511339226810925,
+  "weighted_f1": 0.6889174033513656,
+  "abstain_rate": 0.01,
+  "effective_accuracy": 0.696969696969697,
+  "classification_report": {
+    "Anxiety": {
+      "precision": 0.68,
+      "recall": 0.68,
+      "f1-score": 0.68,
+      "support": 25.0
+    },
+    "Depression": {
+      "precision": 0.6842105263157895,
+      "recall": 0.52,
+      "f1-score": 0.5909090909090909,
+      "support": 25.0
+    },
+    "Normal": {
+      "precision": 0.75,
+      "recall": 0.84,
+      "f1-score": 0.7924528301886793,
+      "support": 25.0
+    },
+    "Suicidal": {
+      "precision": 0.6666666666666666,
+      "recall": 0.72,
+      "f1-score": 0.6923076923076923,
+      "support": 25.0
+    },
+    "ABSTAIN": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.69,
+    "macro avg": {
+      "precision": 0.5561754385964912,
+      "recall": 0.5519999999999999,
+      "f1-score": 0.5511339226810925,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.695219298245614,
+      "recall": 0.69,
+      "f1-score": 0.6889174033513656,
+      "support": 100.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      17,
+      2,
+      4,
+      2,
+      0
+    ],
+    [
+      3,
+      13,
+      3,
+      6,
+      0
+    ],
+    [
+      2,
+      1,
+      21,
+      1,
+      0
+    ],
+    [
+      3,
+      3,
+      0,
+      18,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "labels": [
+    "Anxiety",
+    "Depression",
+    "Normal",
+    "Suicidal",
+    "ABSTAIN"
+  ],
+  "test_label_distribution": {
+    "Suicidal": 25,
+    "Normal": 25,
+    "Depression": 25,
+    "Anxiety": 25
+  },
+  "evaluated_rows": 100,
+  "dataset_test_rows": 100
+}

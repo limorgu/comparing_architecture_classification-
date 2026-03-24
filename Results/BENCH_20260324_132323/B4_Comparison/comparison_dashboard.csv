@@ -1,0 +1,4 @@
+architecture,accuracy,macro_f1,weighted_f1,abstain_rate,effective_accuracy,test_rows,test_label_distribution,error
+ensemble_judge,0.86,0.86,0.86,0.0,0.86,100,"{""Suicidal"": 25, ""Normal"": 25, ""Depression"": 25, ""Anxiety"": 25}",
+chain_review,0.74,0.5983,0.7478,0.0,0.74,100,"{""Suicidal"": 25, ""Normal"": 25, ""Depression"": 25, ""Anxiety"": 25}",
+openai_only,0.69,0.5511,0.6889,0.01,0.697,100,"{""Suicidal"": 25, ""Normal"": 25, ""Depression"": 25, ""Anxiety"": 25}",

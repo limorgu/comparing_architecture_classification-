@@ -1,0 +1,24 @@
+{
+  "project_name": "Mental Health Architecture Benchmark",
+  "version": "1.0",
+  "task_type": "single_label_text_classification",
+  "default_text_columns": [
+    "text",
+    "statement",
+    "content"
+  ],
+  "default_label_columns": [
+    "label",
+    "status",
+    "class"
+  ],
+  "train_ratio": 0.7,
+  "dev_ratio": 0.1,
+  "test_ratio": 0.2,
+  "random_seed": 42,
+  "openai_model": "gpt-5-nano",
+  "openai_test_limit": 100,
+  "openai_temperature": 0.0,
+  "chain_accept_threshold": 0.7,
+  "chain_final_threshold": 0.45
+}
